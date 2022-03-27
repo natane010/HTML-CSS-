@@ -9,13 +9,15 @@
     height: 50px;
     background-color: #ff9a4b;
   }
-  
-  main 
-  {
+
+main 
+{
+    margin-top: 50px;
     width: 960px;
-    margin: 50px auto;
+    margin: 50px;
     display: flex;
-  }
+    margin-bottom: 50px;
+}
 
   @media screen and (max-width : 768px)
   {
@@ -27,13 +29,23 @@
         flex-flow: column wrap;
         padding: 10px;
     }
+    .box:first-child 
+    {
+        margin-top: 50px;
+    }
+
+    .box:last-child 
+    {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
   }
 
   
   
   .box 
   {
-    width: 90%;
+    width: 100%;
     margin-right: 30px;
     padding: 10px;
     position: relative;
@@ -41,10 +53,7 @@
     margin-bottom: 20px;
   }
   
-  .box:last-child 
-  {
-    margin-right: 0;
-  }
+ 
   
   .img1 
   {
