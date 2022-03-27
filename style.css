@@ -23,20 +23,12 @@ main
   {
     main 
     {
+      margin-top: 50px;
         width: 90%;
         margin: 50px auto;
         display: flex;
         flex-flow: column wrap;
         padding: 10px;
-    }
-    .box:first-child 
-    {
-        margin-top: 50px;
-    }
-
-    .box:last-child 
-    {
-        margin-right: 0;
         margin-bottom: 50px;
     }
   }
