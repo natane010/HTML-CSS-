@@ -14,7 +14,7 @@ main
 {
     margin-top: 50px;
     width: 960px;
-    margin: 50px;
+    margin: 50px auto;
     display: flex;
     margin-bottom: 50px;
 }
